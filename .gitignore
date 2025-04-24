@@ -1,0 +1,33 @@
+# Bytecode do Python
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Ambiente virtual (caso use)
+venv/
+env/
+ENV/
+.venv/
+.python-version
+
+# Arquivos temporários de editores
+*.swp
+*.swo
+*~
+.vscode/
+.idea/
+
+# Arquivos do sistema
+.DS_Store
+Thumbs.db
+
+# Arquivo de variáveis de ambiente
+.env
+
+# Arquivos de log (se gerar algum)
+*.log
+
+# PyInstaller
+*.spec
+dist/
+build/
