@@ -28,6 +28,8 @@ Coach: 🧢 guerri
 
 ProxGames = 0
 
+LastGames = 0
+
 Noticias =0 
 
 
