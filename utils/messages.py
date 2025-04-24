@@ -30,7 +30,6 @@ ProxGames = 0
 
 Noticias =0 
 
-Quiz =0 
 
 Help = '''
 /start 
@@ -40,3 +39,46 @@ Help = '''
 /noticias 
 /quiz 
 /help '''
+
+Quiz = [
+    {
+        "pergunta": "Em que ano a FURIA foi fundada?",
+        "alternativas": ["2014", "2015", "2017", "2018"],
+        "correta": "2017"
+    },
+    {
+        "pergunta": "Qual jogador é conhecido pelo nickname 'KSCERATO'?",
+        "alternativas": ["Kaike Cerato", "Andrei Piovezan", "Gabriel Toledo", "Andrei Kscerato"],
+        "correta": "Kaike Cerato"
+    },
+    {
+        "pergunta": "Qual é o animal símbolo da FURIA?",
+        "alternativas": ["Pantera", "Lobo", "Águia", "Leão"],
+        "correta": "Pantera"
+    },
+    {
+        "pergunta": "Quem é o atual capitão da FURIA no CS:GO?",
+        "alternativas": ["yuurih", "KSCERATO", "FalleN", "Drop"],
+        "correta": "FalleN"
+    },
+    {
+        "pergunta": "Qual o lema mais famoso associado à FURIA?",
+        "alternativas": ["Go Hard", "Nunca foi sorte", "Orgulho Brasileiro", "Furia é sangue nos olhos"],
+        "correta": "Nunca foi sorte"
+    },
+    {
+        "pergunta": "Quantas vezes a FURIA participou de Majors até 2023?",
+        "alternativas": ["3", "5", "7", "9"],
+        "correta": "7"
+    },
+    {
+        "pergunta": "Qual desses jogadores NÃO jogou pela FURIA?",
+        "alternativas": ["arT", "coldzera", "drop", "Honda"],
+        "correta": "coldzera"
+    },
+    {
+        "pergunta": "Em que cidade fica localizada a Gaming House da FURIA?",
+        "alternativas": ["São Paulo", "Los Angeles", "Fortaleza", "Miami"],
+        "correta": "Miami"
+    }
+]
