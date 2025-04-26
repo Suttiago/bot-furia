@@ -6,7 +6,7 @@ from comands.help import setup_message_help
 from comands.lineup import setup_message_line
 from comands.quiz import setup_message_quiz
 from comands.news import setup_message_news
-
+from comands.lastgames import setup_message_lastgames
 load_dotenv()
 
 token = os.getenv("token")
@@ -17,6 +17,8 @@ setup_message_help(bot)
 setup_message_line(bot)
 setup_message_quiz(bot)
 setup_message_news(bot)
+setup_message_lastgames(bot)
+
 
 print("Bot está rodando...")
 bot.infinity_polling()

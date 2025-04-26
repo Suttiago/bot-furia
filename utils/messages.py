@@ -37,6 +37,7 @@ Help = '''
 /historia 
 /lineup 
 /proximosjogos 
+/ultimosjogos
 /noticias 
 /quiz 
 /help '''
