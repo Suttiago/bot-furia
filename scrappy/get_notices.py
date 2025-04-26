@@ -22,9 +22,10 @@ def get_notices():
     noticias = soup.find_all('a', class_='NewsCardSmall__NewsCardSmallContainer-sc-1q3y6t7-0')
     
     base_url = "https://draft5.gg"
+    noticas_texto = " "
     for noticia in noticias:
         titulo = noticia.find('p').text.strip()
         link = base_url + noticia['href']
-        noticas_texto = f"📰 {titulo} \n {link} \n"
+        noticas_texto += f"📰 {titulo} \n {link} \n"
     driver.quit()        
     return noticas_texto
