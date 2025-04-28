@@ -32,15 +32,20 @@ LastGames = 0
 
 
 
-Help = '''
-/start 
-/historia 
-/lineup 
-/proximosjogos 
-/ultimosjogos
-/noticias 
-/quiz 
-/help '''
+Help = Help = '''
+🤖 *Comandos disponíveis*:
+
+/start - Iniciar a conversa com o bot
+/lineup - Ver o lineup atual da FURIA
+/proximosjogos - Ver os próximos jogos
+/ultimosjogos - Ver os últimos resultados
+/noticias - Ler as últimas notícias da FURIA
+/quiz - Teste seus conhecimentos sobre a FURIA!
+/help - Ver esta lista de comandos
+
+Vamos juntos rumo à vitória! 🖤🐆
+'''
+
 
 Quiz = [
     {
