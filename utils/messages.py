@@ -1,17 +1,14 @@
 Start ="""
-🎮 Seja bem-vindo(a) ao Bot FURIOSO! 🔥
-
-Aqui você vai ficar por dentro de tudo sobre o time de CS da FURIA:
-- Últimas notícias 📰
-- Lineup atual 🧑‍💻
-- Próximos jogos 📅
-- História do time 📖
-- E um minigame exclusivo 👾
-
-Digite /noticias, /lineup, /jogos ou /minigame pra começar!
+"👋 Olá, seja bem-vindo ao bot da FURIA!\n\n"
+"Aqui você pode acompanhar:\n"
+"• 📋 Lineup atual\n"
+"• 📰 Últimas notícias\n"
+"• 🎮 Próximos jogos\n"
+"• 🏆 Últimos resultados\n"
+"• ❓ Quiz sobre o time\n\n"
+"Digite /help para ver todos os comandos disponíveis!"
 """
 
-Historia =0 
 
 Lineup = '''🎯 Lineup atual do time de CS:GO da FURIA:
 
@@ -25,12 +22,6 @@ Coach: 🧢 guerri
 
 #DIADEFURIA 🔥
 '''
-
-ProxGames = 0
-
-LastGames = 0
-
-
 
 Help = Help = '''
 🤖 *Comandos disponíveis*:
@@ -68,11 +59,7 @@ Quiz = [
         "alternativas": ["yuurih", "KSCERATO", "FalleN", "Drop"],
         "correta": "FalleN"
     },
-    {
-        "pergunta": "Qual o lema mais famoso associado à FURIA?",
-        "alternativas": ["Go Hard", "Nunca foi sorte", "Orgulho Brasileiro", "Furia é sangue nos olhos"],
-        "correta": "Nunca foi sorte"
-    },
+
     {
         "pergunta": "Quantas vezes a FURIA participou de Majors até 2023?",
         "alternativas": ["3", "5", "7", "9"],

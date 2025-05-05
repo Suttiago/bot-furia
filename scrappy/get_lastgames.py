@@ -4,7 +4,7 @@ from selenium.webdriver.chrome.options import Options
 from bs4 import BeautifulSoup
 import time
 
-def get_games():
+def get_last_games():
     url = 'https://draft5.gg/equipe/330-FURIA'
     options = Options()
     service = Service()
@@ -43,5 +43,3 @@ def get_games():
     driver.quit()
     return jogos_texto
 
-# Teste
-print(get_games())
